@@ -71,3 +71,15 @@ main p{
     text-align: center;
     font-size: 1.2rem;
 }
+
+    @media(max-width : 600px) {
+        #cont{
+            width: 100%;
+        }
+        header h1{
+            font-size: 2rem;
+        }
+        header img{
+            width: 70%;
+        }
+    }
