@@ -1,0 +1,73 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Black Ops One', cursive;
+    background-color: #054812;
+    height: 100vh;
+}
+
+#cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#dabba{
+    width: 30%;
+    background-color: green;
+    border-radius: 1rem;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    align-items: center;
+}
+
+header h1{
+    font-size: 5rem;
+    margin: 0px;
+}
+
+main{
+    color: greenyellow;
+}
+
+main #welcome{
+    text-align: center;
+    font-size: 2rem;
+}
+
+main #but{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+main #cards,#total,#ctotal{
+    text-align: center;
+}
+
+main #but button{
+    font-family: 'Black Ops One', cursive;;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    border: transparent;
+    background-color: greenyellow;
+}
+
+main #but #new{
+    background-color: aqua;
+}
+
+main #but #rbut{
+    background-color: goldenrod;
+}
+main p{
+    text-align: center;
+    font-size: 1.2rem;
+}

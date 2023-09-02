@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./Images/card1.avif" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Edu+SA+Beginner&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./21.css">
+    <title>21</title>
+</head>
+<body>
+    <section id="cont">
+        <div id="dabba">
+            <header><h1><span style="color: #cb0d0f;">2</span> 1</h1>
+            <img src="./Images/card1.avif" alt="" style="width: 8rem; border-radius: 1rem;"></header>
+
+            <main>
+                <h2 id="welcome">Welcome to the Jackpot </h2>
+                <h2 id="cards" style="letter-spacing: 6px;">CARDS : </h2>
+                <h2 id="total" style="letter-spacing: 6px;" >TOTAL : </h2>
+                <h2 id="ctotal" style="letter-spacing: 6px;">COMPUTER : </h2>
+                <div id="but">
+                    <button onclick="start()">Start Game</button>
+                    <button id="new" onclick="getNewCard()">New Card</button>
+                    <button onclick="reset()">Reset</button>
+                    <button id="rbut" onclick="winner()">Result</button>
+                </div>
+                <p id="message"></p>
+            </main>
+        </div>
+    </section>
+
+    <script src="./21.js"></script>
+</body>
+</html>
